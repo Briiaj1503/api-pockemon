@@ -1,14 +1,14 @@
 import React from 'react';
 import "./App.css";
-import Navegacion from "./component/Navegacion/index"
-import Buscar from '../src/component/Buscar/index';
+import Navbar from "./component/Navegacion/index"
+import Prins from './component/Main/index';
 
 function App() {
   return (
     <div>
-      <Navegacion/>
+      <Navbar/>
+      <Prins/>
     <div className="App">
-     <Buscar/>
     </div>
     </div>
   );
